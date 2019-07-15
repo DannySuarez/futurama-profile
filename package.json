@@ -4,7 +4,10 @@
   "description": "Futurama Profile creates a user profile based on their favorite Futurama character. The profile includes a tagline, which is a quote by the users favorite character.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose",
+    "test:watch": "npm run test -- --watch",
+    "start": "node server.js",
+    "start:watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
