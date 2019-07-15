@@ -1,0 +1,27 @@
+{
+  "name": "futurama-profile",
+  "version": "1.0.0",
+  "description": "Futurama Profile creates a user profile based on their favorite Futurama character. The profile includes a tagline, which is a quote by the users favorite character.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DannySuarez/futurama-profile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DannySuarez/futurama-profile/issues"
+  },
+  "homepage": "https://github.com/DannySuarez/futurama-profile#readme",
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
